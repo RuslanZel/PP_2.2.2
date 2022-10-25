@@ -23,7 +23,7 @@ public class CarServiceImpl implements CarService {
         cars.add(new Car(5, "ส่เ", 700));
     }
 
-    public List<Car> viewCar(int i) {
+    public List<Car> getCarsByCount(int i) {
         if (i > 0 & i < 5) return cars.subList(0, i);
         return cars;
     }
