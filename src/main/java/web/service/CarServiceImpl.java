@@ -16,11 +16,11 @@ public class CarServiceImpl implements CarService {
 
     {
         cars = new ArrayList<>();
-        cars.add(new Car(1, "Ôîğä", 30));
-        cars.add(new Car(2, "Ìåğñåäåñ", 200));
-        cars.add(new Car(3, "ÁÌÂ", 50));
-        cars.add(new Car(4, "Êàìàç", 1000));
-        cars.add(new Car(5, "Êèà", 700));
+        cars.add(new Car(1, "Ğ¤Ğ¾Ñ€Ğ´", 30));
+        cars.add(new Car(2, "ĞœĞµÑ€ÑĞµĞ´ĞµÑ", 200));
+        cars.add(new Car(3, "Ğ‘ĞœĞ’", 50));
+        cars.add(new Car(4, "KIA", 1000));
+        cars.add(new Car(5, "Ğ›ĞµĞºÑÑƒÑ", 700));
     }
 
     public List<Car> getCarsByCount(int i) {

@@ -41,9 +41,9 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Номер - " + id +
-                "; Модель - " + model +
-                "; Серия - " + series +
+        return "РќРѕРјРµСЂ - " + id +
+                "; РњРѕРґРµР»СЊ - " + model +
+                "; РЎРµСЂРёСЏ - " + series +
                 ";";
     }
 }
